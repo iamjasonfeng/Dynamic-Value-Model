@@ -16,8 +16,6 @@ current value judgments inform the next action. DVM complements rather than repl
 the world model represents what the environment contains and how it behaves, while the value model
 represents what is worth pursuing and why. It requires no weight updates, auxiliary model calls, search
 branches, or environment copies. On the 25 public ARC-AGI-3 games, DeepSeek V4 Flash with DVM
-
 scored 14.38%, compared with 11.02% for Policy Superposition and 6.01% for the baseline. These single-
 run comparisons are preliminary; the earlier two runs also shared a temporary API-balance outage that did
-
 not affect DVM.
